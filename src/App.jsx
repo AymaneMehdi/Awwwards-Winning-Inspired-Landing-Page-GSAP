@@ -4,6 +4,7 @@ import About from "./components/about";
 import Features from "./components/features";
 import Story from "./components/story";
 import Contact from "./components/contact";
+import Footer from "./components/footer";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <Features />
       <Story />
       <Contact />
+      <Footer />
     </main>
   );
 };
