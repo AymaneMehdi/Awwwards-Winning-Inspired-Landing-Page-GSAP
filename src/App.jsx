@@ -1,8 +1,11 @@
-const App = () => {
-  
-	return (
-		<main></main>
-	)
-}
+import Navbar from "./components/navbar";
 
-export default App
+const App = () => {
+  return (
+    <main className="relative min-h-screen w-screen overflow-x-hidden bg-zinc-600">
+      <Navbar />
+    </main>
+  );
+};
+
+export default App;
